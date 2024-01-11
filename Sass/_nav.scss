@@ -1,0 +1,87 @@
+// /* nasted Scss And Nav */
+
+body{
+    background-color:$bgcolor;
+}
+.travel {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+
+    z-index: 1;
+    font-size: 20px;
+
+    nav {
+        .bgblur {
+            a {
+                color: $yellow;
+                font-family: Noto Serif Gujarati;
+                font-size: 42px;
+                font-style: normal;
+                font-weight: 700;
+                line-height: normal;
+            }
+        }
+
+        .bgblur {
+
+            border-radius: 47px;
+            background: linear-gradient(184deg, rgba(230, 230, 230, 0.31) -34.62%, rgba(67, 95, 117, 0.21) 122.51%);
+            backdrop-filter: blur(32.75px);
+            border-radius: 50px;
+            -webkit-backdrop-filter: blur(10px);
+            backdrop-filter: blur(10px);
+            transition: all .5s;
+            box-shadow: $bgcolor 0px 3px 12px;
+            padding: 10px 41px;
+            margin-top: 5px;
+
+
+
+
+            // position: relative;
+            // z-index: 1;
+            padding: 10px 41px;
+
+
+            .menuA {
+
+                ul {
+
+                    li {
+
+                        a {
+                            color: $whitetext;
+                            font-family: Nunito;
+                            font-size: 16px;
+                            font-style: normal;
+                            font-weight: 400;
+                            line-height: normal;
+                        }
+
+                        padding: 5px 15px;
+                    }
+
+                    :nth-child(7) {
+                        border: 1px solid  $whitetext;
+                        color:  $whitetext;
+                        border-radius: 50px;
+                        position: relative;
+                        left: 220px;
+                        border-radius: 47px;
+                        border: 2px solid #f7d042;
+                       
+
+                        // align-items: right !important;
+                        form {
+                            button {
+                                color: white;
+                            }
+                        }
+
+                    }
+                }
+            }
+        }
+    }
+}

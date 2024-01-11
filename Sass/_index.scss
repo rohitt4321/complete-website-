@@ -1,0 +1,476 @@
+#main {
+    background-color: #0C111F;
+    padding: 2rem 5.60rem;
+
+    .bgimage {
+        color: rgb(250, 250, 250);
+        border-radius: 25px;
+        background: url(https://images.unsplash.com/photo-1682687982029-edb9aecf5f89?q=80&w=1471&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D), lightgray 0px -72.309px / 105.043% 128.204% no-repeat;
+        background-blend-mode: overlay;
+        background-color: rgba(0, 0, 0, 0.492);
+        background-position: center center;
+        padding: 7rem 0rem;
+        font-family: Nunito;
+
+        h3 {
+            font-size: 24px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: normal;
+        }
+
+        h1 {
+            font-size: 64px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: normal;
+        }
+
+        // Travel Booking Form 
+        .form {
+            background: linear-gradient(184deg, rgba(230, 230, 230, 0.33) -34.62%, rgba(67, 95, 117, 0.72) 122.51%);
+            -webkit-backdrop-filter: blur(32.75px);
+            backdrop-filter: blur(32.75px);
+            border-radius: 50px;
+            -webkit-backdrop-filter: blur(10px);
+            backdrop-filter: blur(10px);
+            transition: all .5s;
+            box-shadow: rgba(0, 0, 0, .09) 0px 3px 12px;
+            // padding: 10px 41px;
+            width: 774px;
+            height: 161px;
+            flex-shrink: 0;
+            margin: auto;
+            padding: 1rem 0rem;
+            position: relative;
+            top: 113px;
+
+            form {
+                display: flex;
+                justify-content: space-evenly;
+                align-items: center;
+                div{
+                    input{
+                        background-color:hsla(43, 100%, 48%, 0) ;
+                        padding: 10px;
+                        border-radius: 30px;
+                        color: #fff;
+                        border: 1px solid #F5B100;
+                       
+
+                    }
+                }
+                
+            }
+
+            button {
+                @include btnblur;
+                margin-top: 1rem;
+            }
+
+        }
+    }
+}
+
+//discover section 
+#deiscover {
+    background-color: #0C111F;
+
+    .disc {
+        div {
+            padding: 4rem;
+
+            img {
+                border-radius: 20px;
+            }
+        }
+
+    }
+
+    div {
+        color: #FFF;
+
+        span {
+            padding: 0.85rem 0rem;
+        }
+
+        h4 {
+            font-family: Nunito;
+            font-size: 32px;
+            font-style: normal;
+            font-weight: 600;
+            line-height: normal;
+        }
+
+        p {
+            color: #808080;
+            font-family: Nunito;
+            font-size: 10px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+        }
+
+        .disctext {
+            display: flex !important;
+            align-content: center;
+            align-items: center;
+
+            div {
+                button {
+                    @include btnblur;
+                }
+            }
+        }
+    }
+}
+
+// provider section 
+#provider {
+    background: url(../image/Vector.png) center center no-repeat;
+
+    color: #FFF;
+
+    .trek {
+        div {
+            h1 {
+                color: var(--Text_Light, #FFF);
+                font-feature-settings: 'clig' off, 'liga' off;
+                font-family: Inter;
+                font-size: 64px;
+                font-style: normal;
+                font-weight: 800;
+                line-height: normal;
+                letter-spacing: -1px;
+            }
+
+            button {
+                @include btnblur;
+                background: var(--L2, linear-gradient(135deg, #F9EC7D 0%, #F5B100 100%));
+            }
+        }
+
+        display: flex !important;
+        align-items: center;
+    }
+
+    .trekimg {
+        padding: 4rem;
+
+
+        img {
+            border-radius: 20px;
+        }
+
+    }
+}
+
+//card section
+#card {
+    div {
+        div {
+            div {
+                color: white;
+
+
+                span {
+                    font-size: 1rem;
+                }
+
+                h6 {
+                    font-size: 2.50rem;
+                    font-family: Nunito;
+                    font-style: normal;
+                    font-weight: 600;
+                    line-height: normal;
+                    padding: 0rem 0rem 1rem 0rem;
+                }
+            }
+        }
+
+        .cardleyout {
+            padding: 35px 0px;
+
+            div {
+                border-radius: 25px;
+
+                img {
+                    border-radius: 25px 25px 0px 0px;
+                }
+
+                div {
+                    h5 {
+
+                        font-family: Nunito;
+                        font-size: 20px;
+                        font-style: normal;
+                        font-weight: 600;
+                        line-height: normal;
+                    }
+
+                    p {
+                        color: #808080;
+                        font-family: Nunito;
+                        font-size: 12px;
+                        font-style: normal;
+                        font-weight: 600;
+                        line-height: normal;
+                    }
+
+                    a {
+                        color: #29D9D5;
+                        font-family: Nunito;
+                        font-size: 16px;
+                        font-style: normal;
+                        font-weight: 600;
+                        line-height: normal;
+                    }
+                }
+            }
+        }
+
+    }
+}
+
+#explore {
+    padding: 35px 0px;
+
+    div {
+        div {
+            color: #fff;
+
+
+            div {
+                span {
+
+                    font-family: Nunito;
+                    font-size: 16px;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: normal;
+                }
+
+                h5 {
+
+                    font-family: Nunito;
+                    font-size: 40px;
+                    font-style: normal;
+                    font-weight: 600;
+                    line-height: normal;
+                    padding: 0rem 0rem 1rem 0rem;
+
+                }
+            }
+        }
+
+        div {
+
+            div {
+
+                .svcicon {
+                    width: 19.375;
+
+                    background: linear-gradient(198deg, rgba(230, 230, 230, 0.31) -4.88%, #435f7536 108.98%);
+                    backdrop-filter: blur(32.75px);
+                    -webkit-backdrop-filter: blur(32.75px);
+                    padding: 3rem 1rem;
+                    border-radius: 30px;
+
+                    div {
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        flex-direction: column;
+
+                        h5 {
+                            font-family: Nunito;
+                            font-size: 24px;
+                            padding: 9px 0px;
+                        }
+
+                        span {
+                            padding: 5px 0px !important;
+                        }
+                    }
+
+                    .continue {
+                        padding: 30px 0px 0px 0px;
+                    }
+                }
+
+
+            }
+        }
+    }
+}
+
+#blog {
+    padding: 30px 0px;
+
+    div {
+        div {
+            div {
+
+                span {
+                    font-size: 16px;
+                    padding-top: 35px;
+                    color: #fff;
+                }
+
+                h6 {
+                    font-size: 40px;
+                    padding-bottom: 35px;
+                    color: #fff;
+
+                }
+            }
+        }
+
+        div {
+            div {
+                div {
+                    background-color: #222222;
+                    color: #fff;
+
+                }
+
+            }
+        }
+    }
+}
+
+#Adventure {
+    background: rgba(0, 0, 0, 0.427) url(../image/Man\ lets\ explore.jpg) no-repeat center center;
+    background-blend-mode: multiply;
+    padding: 8rem 0rem;
+    color: #fff;
+
+    div {
+        div {
+            div {
+
+                span {
+                    font-size: 16px;
+                    padding-top: 35px;
+                    color: #fff;
+                    padding: 15px 0px;
+                    color: #F5B100;
+                }
+
+                h6 {
+                    font-size: 40px;
+                    padding-bottom: 35px;
+                    color: #fff;
+                    padding: 15px 0px;
+
+                }
+
+                p {
+                    font-size: 12px;
+                    padding: 12px 0px;
+                }
+
+                h4 {
+                    font-size: 30px;
+
+                    span {
+                        font-size: 30px;
+                        color: #F5B100;
+                    }
+
+                }
+
+                button {
+                    @include btnblur;
+                    margin-top: 15px;
+
+                }
+            }
+        }
+    }
+
+}
+
+//footer 
+#footer {
+    padding: 6rem 0rem 2rem 0rem;
+
+    footer {
+        div {
+            div {
+                div {
+                    span {
+                        color: #FFF;
+
+                        font-family: 'Nunito';
+                        font-size: 32px;
+                    }
+
+                    p {
+                        color: #fff;
+                    }
+
+                    i {
+                        color: #F5B100;
+                        font-size: 35px;
+                        padding: 0px 5px;
+                    }
+
+                }
+
+                .link {
+                    display: flex;
+                    flex-direction: column;
+                    padding-left:10px ;
+
+                    a {
+                        padding: 5px 0px ;
+                        color: #fff;
+                        text-decoration: none;
+                    }
+                }
+
+                .social {
+                    display: flex;
+                    flex-direction: column;
+
+                    a {
+                        color: #fff;
+                        text-decoration: none;
+                        padding: 5px 0px;
+                        i{
+                            color: #fff;
+                            font-size: 15px;
+                        }
+                    }
+                }
+                .newsletter{
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    p{
+                        font-size: 12px;
+                    }
+                    input{
+                        background-color:#F5B100 ;
+                        padding: 13px;
+                        border-radius: 30px;
+                        color: #fff;
+                       
+
+                    }
+                    .submit{
+                        padding: 10px;
+                        color: #fff;
+                        text-decoration: none;
+                        border: 1px solid #F5B100;
+                        margin: 15px 0px 0px 0px ;
+                        border-radius: 10px;
+                    }
+                }
+
+            }
+        }
+    }
+
+}
